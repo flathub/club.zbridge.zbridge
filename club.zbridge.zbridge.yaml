@@ -32,7 +32,6 @@ modules:
   - mkdir -p flatpak-node/cache/electron
   - cp electron-shasums.txt flatpak-node/cache/electron/SHASUMS256.txt-29.4.6
   - npm install --offline --cache=npm-cache --ignore-scripts
-  - find node_modules/app-builder-bin/linux -name app-builder -exec chmod +x {} +
   - npx electron-builder --linux --dir
   - cp -r dist/linux*-unpacked /app/zbridge-club
   - install -Dm0755 zbridge-club.sh /app/bin/zbridge-club
