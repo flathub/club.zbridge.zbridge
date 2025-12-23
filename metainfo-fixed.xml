@@ -38,20 +38,24 @@
   </branding>
   <screenshots>
     <screenshot type="default">
-      <caption>Game table</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/Game%20table.jpg</image>
+      <caption>zBridge Club home page</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/fix/screenshot-filenames-v2/screenshots/home_page.jpg</image>
     </screenshot>
     <screenshot>
-      <caption>Analysis Room</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/Analysis%20Room.jpg</image>
+      <caption>Log in to your account or play as guest</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/fix/screenshot-filenames-v2/screenshots/log_in.jpg</image>
     </screenshot>
     <screenshot>
-      <caption>Game Rooms</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/Game%20Rooms.jpg</image>
+      <caption>Practice with Jethro bridge bot</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/fix/screenshot-filenames-v2/screenshots/play_with_bots.jpg</image>
     </screenshot>
     <screenshot>
-      <caption>Interactive tutorials</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/Interactive%20tutorials.jpg</image>
+      <caption>Multiplayer game rooms</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/fix/screenshot-filenames-v2/screenshots/game_rooms.jpg</image>
+    </screenshot>
+    <screenshot>
+      <caption>Analyze any deal in the analysis room</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/fix/screenshot-filenames-v2/screenshots/analysis_room.jpg</image>
     </screenshot>
   </screenshots>
   <url type="homepage">https://zbridge.club</url>
