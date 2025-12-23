@@ -31,11 +31,11 @@
       Join zbridge today!
     </p>
   </description>
-  <branding>
-    <color type="primary" scheme_preference="light">#2E5339</color>
-    <color type="primary" scheme_preference="dark">#1A3322</color>
-  </branding>
   <launchable type="desktop-id">club.zbridge.zbridge.desktop</launchable>
+  <branding>
+    <color type="primary" scheme_preference="light">#345B41</color>
+    <color type="primary" scheme_preference="dark">#345B41</color>
+  </branding>
   <screenshots>
     <screenshot type="default">
       <caption>Game table</caption>
