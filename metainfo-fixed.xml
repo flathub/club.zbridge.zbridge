@@ -10,15 +10,26 @@
   <project_license>LicenseRef-proprietary</project_license>
   <description>
     <p>
-      zBridge Club is a modern, social contract bridge platform. Play with friends, compete in rated games, or practice with our advanced robot, Jethro.
+      Contract bridge is a trick-taking card game for four players, divided into two partnerships sitting opposite each other (North-South vs. East-West).
     </p>
-    <p>Features include:</p>
-    <ul>
-      <li>Social Rooms: Play casually with friends (video/voice chat coming soon).</li>
-      <li>Rated Games: Compete for ELO ratings in serious matches.</li>
-      <li>Bot Practice: Hone your skills with Jethro, our 2/1 system robot.</li>
-      <li>Analysis Room: Review hands and analyze play with double-dummy logic.</li>
-    </ul>
+    <p>
+      zBridge is an online bridge club where you can learn and play bridge. It is a full bridge platform with multiple features.
+    </p>
+    <p>
+      Play with Jethro, a competitive bridge bot for 2/1 game forcing, try our interactive tutorials, join multiplayer games in social and rated rooms, or analyse custom/random deals in the analysis room to practice different bidding and playing scenarios with hints from the AI. Compose bidding polls or bridge articles. The app features a duplicate scoring system, game records and a rating system for players. It is completely free and without any adware. Our mission is to provide a premium experience to bridge enthusiasts on all platforms.
+    </p>
+    <p>
+      In the analysis and bot rooms, Jethro offers a detailed explanation for each bid made with a suggestion for your next bid. This is a great tool for learners to improve their bidding. The nuanced human like bidding of Jethro means that it can provide hours of fun for intermediate and expert players as well. The double dummy solver used for the playing phase is wrapped by an algorithm to chose the most appropriate card from among the DDS choices to avoid complete robotic play where possible without compromising on achieving the best outcome. This combination creates a great partner and a formidable opponent to improve your game. The analysis room also features a complete double dummy analysis showing the possible tricks for any contract. The analysis room is the ideal place to practice 2/1 bidding with the bot on random or custom hands.
+    </p>
+    <p>
+      For the best experience, we advise newcomers to first go through the 'How to play bridge' tutorial, then the interactive tutorial and then learn continuously by playing with Jethro before stepping into multiplayer game rooms.
+    </p>
+    <p>
+      Members can also create bidding polls and blog posts to engage with the community. The lobby and rooms also have a community chat. Members can also send friend requests and private messages.
+    </p>
+    <p>
+      Join zbridge today!
+    </p>
   </description>
   <branding>
     <color type="primary" scheme_preference="light">#2E5339</color>
