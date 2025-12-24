@@ -74,6 +74,6 @@ modules:
   sources:
   - type: git
     url: https://github.com/amitter84/zbridge-flatpak-source.git
-    commit: 4baef2044e543359f67e50cbb8ea08c4c85535b9
+    commit: e7bf79327e2db2b7b37cacf88c21119e81644be4
   - type: file
     path: metainfo-fixed.xml
