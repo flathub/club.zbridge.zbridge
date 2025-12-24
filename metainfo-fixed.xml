@@ -60,7 +60,7 @@
   </screenshots>
   <url type="homepage">https://zbridge.club</url>
   <content_rating type="oars-1.1"/>
-  <releases>
-    <release version="1.1.2" date="2025-12-23"/>
-  </releases>
-</component>
+        <releases>
+          <release version="1.1.5" date="2025-12-25" />
+          <release version="1.1.2" date="2025-12-23" />
+        </releases></component>
