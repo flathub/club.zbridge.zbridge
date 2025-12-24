@@ -21,6 +21,7 @@ finish-args:
 - --socket=wayland
 - --socket=pulseaudio
 - --share=network
+- --persist=.config/zbridge-club
 
 - --filesystem=xdg-download/zBridge_Club:create
 modules:
