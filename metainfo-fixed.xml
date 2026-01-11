@@ -33,34 +33,38 @@
   </description>
   <launchable type="desktop-id">club.zbridge.zbridge.desktop</launchable>
   <branding>
-    <color type="primary" scheme_preference="light">#345B41</color>
-    <color type="primary" scheme_preference="dark">#345B41</color>
+    <color type="primary" scheme_preference="light">#4a9d5f</color>
+    <color type="primary" scheme_preference="dark">#2a5238</color>
   </branding>
   <screenshots>
     <screenshot type="default">
-      <caption>zBridge Club home page</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/v1.1.2/screenshots/home_page.png</image>
+      <caption>Learn to play</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/learn_to_play.png</image>
     </screenshot>
     <screenshot>
-      <caption>Login to your account or play as guest</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/v1.1.2/screenshots/log_in.png</image>
+      <caption>Play with bots any time</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/play_with_bots_any_time.png</image>
     </screenshot>
     <screenshot>
-      <caption>Playing with an advanced bot</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/v1.1.2/screenshots/play_with_bots.png</image>
+      <caption>Analyze games</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/analyze_games.png</image>
     </screenshot>
     <screenshot>
-      <caption>Multiplayer game rooms</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/v1.1.2/screenshots/game_rooms.png</image>
+      <caption>Replay games</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/replay_games.png</image>
     </screenshot>
     <screenshot>
-      <caption>Analyze any deal in the analysis room</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/v1.1.2/screenshots/analysis_room.png</image>
+      <caption>Login screen</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/login_screen.png</image>
+    </screenshot>
+    <screenshot>
+      <video codec="vp9" container="webm">https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/flatpak.webm</video>
     </screenshot>
   </screenshots>
   <url type="homepage">https://zbridge.club</url>
   <content_rating type="oars-1.1"/>
-        <releases>
-          <release version="1.1.5" date="2025-12-25" />
-          <release version="1.1.2" date="2025-12-23" />
-        </releases></component>
+  <releases>
+    <release version="1.1.5" date="2025-12-25" />
+    <release version="1.1.2" date="2025-12-23" />
+  </releases>
+</component>
