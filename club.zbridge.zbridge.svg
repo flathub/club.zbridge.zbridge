@@ -48,8 +48,12 @@
 
 
 
+  <!-- Background Rounded Rectangle with Website Green Color -->
+  <!-- Matches the grid's rounded rectangle exactly: 103px x 103px, positioned at 12.5, 12.5 -->
+  <rect x="12.5" y="12.5" width="103" height="103" rx="7.9" ry="7.9" fill="#3d7a4a"/>
+
   <!-- SCALED LOGO CONTENT -->
-  <g transform="translate(64, 80) scale(0.28)">
+  <g transform="translate(64, 75) scale(0.28)">
      
     <!-- Background: Cards (Top Halves) -->
     <!-- 
