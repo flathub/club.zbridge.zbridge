@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Zbridge
-Comment=Contract bridge card game
+Comment=Play contract bridge online
 Exec=zbridge-club %U
 Terminal=false
 Type=Application

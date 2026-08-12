@@ -5,7 +5,7 @@
   <developer id="club.zbridge">
     <name>zBridge</name>
   </developer>
-  <summary>Contract bridge card game</summary>
+  <summary>Play contract bridge online</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
   <description>
@@ -58,6 +58,7 @@
       <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/login_screen.png</image>
     </screenshot>
     <screenshot>
+      <caption>Gameplay overview</caption>
       <video codec="vp9" container="webm">https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/flatpak.webm</video>
     </screenshot>
   </screenshots>
