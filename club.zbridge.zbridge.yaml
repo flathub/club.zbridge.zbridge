@@ -12,6 +12,7 @@ build-options:
     NPM_CONFIG_PROGRESS: 'false'
     ELECTRON_CACHE: /run/build/zbridge-club/flatpak-node/cache/electron
     ELECTRON_BUILDER_CACHE: /run/build/zbridge-club/flatpak-node/cache/electron-builder
+    SOURCE_DATE_EPOCH: '1700000000'
 base: org.electronjs.Electron2.BaseApp
 base-version: '25.08'
 command: zbridge-club
@@ -33,8 +34,10 @@ modules:
   - mkdir -p flatpak-node/cache/electron
   - cp electron-shasums.txt flatpak-node/cache/electron/SHASUMS256.txt-29.4.6
   - npm install --offline --cache=npm-cache --ignore-scripts
+  - find . -exec touch -h -d "@${SOURCE_DATE_EPOCH:-1700000000}" {} +
   - npx electron-builder --linux --dir
   - cp -r dist/linux*-unpacked /app/zbridge-club
+  - find /app/zbridge-club -exec touch -h -d "@${SOURCE_DATE_EPOCH:-1700000000}" {} +
   - install -Dm0755 zbridge-club.sh /app/bin/zbridge-club
   - install -Dm644 club.zbridge.zbridge.desktop /app/share/applications/club.zbridge.zbridge.desktop
   - install -Dm644 metainfo-fixed.xml /app/share/metainfo/club.zbridge.zbridge.metainfo.xml
@@ -42,7 +45,7 @@ modules:
   sources:
   - type: git
     url: https://github.com/amitter84/zbridge-flatpak-source.git
-    commit: 09477c4eed4662c964d8ed6410e7e3ba806dfb17
+    commit: c24024aeba2d76825fb86be87552a98abf54e012
   - dest: flatpak-node/cache/electron
     only-arches:
     - x86_64
@@ -74,6 +77,6 @@ modules:
   sources:
   - type: git
     url: https://github.com/amitter84/zbridge-flatpak-source.git
-    commit: 09477c4eed4662c964d8ed6410e7e3ba806dfb17
+    commit: c24024aeba2d76825fb86be87552a98abf54e012
   - type: file
     path: metainfo-fixed.xml
