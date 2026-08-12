@@ -58,6 +58,18 @@
       <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/login_screen.png</image>
     </screenshot>
     <screenshot>
+      <caption>Meet Jethro</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/meet_jethro.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Events</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/events.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Bidding conventions</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/bidding_conventions.png</image>
+    </screenshot>
+    <screenshot>
       <caption>Gameplay overview</caption>
       <video codec="vp9" container="webm">https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/flatpak.webm</video>
     </screenshot>
