@@ -34,7 +34,7 @@
   <launchable type="desktop-id">club.zbridge.zbridge.desktop</launchable>
   <branding>
     <color type="primary" scheme_preference="light">#4a9d5f</color>
-    <color type="primary" scheme_preference="dark">#2a5238</color>
+    <color type="primary" scheme_preference="dark">#1e4529</color>
   </branding>
   <screenshots>
     <screenshot type="default">
