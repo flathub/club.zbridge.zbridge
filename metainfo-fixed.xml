@@ -7,7 +7,7 @@
   </developer>
   <summary>Play contract bridge online</summary>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>LicenseRef-proprietary</project_license>
+  <project_license>GPL-3.0-or-later</project_license>
   <description>
     <p>
       Contract bridge is a trick-taking card game for four players, divided into two partnerships sitting opposite each other (North-South vs. East-West).
