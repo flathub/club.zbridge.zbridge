@@ -5,9 +5,9 @@
   <developer id="club.zbridge">
     <name>zBridge</name>
   </developer>
-  <summary>Contract bridge card game</summary>
+  <summary>Play contract bridge online</summary>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>LicenseRef-proprietary</project_license>
+  <project_license>GPL-3.0-or-later</project_license>
   <description>
     <p>
       Contract bridge is a trick-taking card game for four players, divided into two partnerships sitting opposite each other (North-South vs. East-West).
@@ -34,7 +34,7 @@
   <launchable type="desktop-id">club.zbridge.zbridge.desktop</launchable>
   <branding>
     <color type="primary" scheme_preference="light">#4a9d5f</color>
-    <color type="primary" scheme_preference="dark">#2a5238</color>
+    <color type="primary" scheme_preference="dark">#1e4529</color>
   </branding>
   <screenshots>
     <screenshot type="default">
@@ -58,6 +58,19 @@
       <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/login_screen.png</image>
     </screenshot>
     <screenshot>
+      <caption>Meet Jethro</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/meet_jethro.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Events</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/events.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Bidding conventions</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/bidding_conventions.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Gameplay overview</caption>
       <video codec="vp9" container="webm">https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/flatpak.webm</video>
     </screenshot>
   </screenshots>
