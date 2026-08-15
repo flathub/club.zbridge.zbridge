@@ -42,20 +42,12 @@
       <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/learn_to_play.png</image>
     </screenshot>
     <screenshot>
-      <caption>Play with bots any time</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/play_with_bots_any_time.png</image>
-    </screenshot>
-    <screenshot>
       <caption>Analyze games</caption>
       <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/analyze_games.png</image>
     </screenshot>
     <screenshot>
-      <caption>Replay games</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/replay_games.png</image>
-    </screenshot>
-    <screenshot>
       <caption>Login screen</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/login_screen.png</image>
+      <image> </image>
     </screenshot>
     <screenshot>
       <caption>Meet Jethro</caption>
@@ -68,10 +60,6 @@
     <screenshot>
       <caption>Bidding conventions</caption>
       <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/bidding_conventions.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Gameplay overview</caption>
-      <video codec="vp9" container="webm">https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/flatpak.webm</video>
     </screenshot>
   </screenshots>
   <url type="homepage">https://zbridge.club</url>
