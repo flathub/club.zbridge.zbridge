@@ -38,28 +38,20 @@
   </branding>
   <screenshots>
     <screenshot type="default">
+      <caption>Play with bot</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/play_with_bot.png</image>
+    </screenshot>
+    <screenshot>
       <caption>Learn to play</caption>
       <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/learn_to_play.png</image>
     </screenshot>
     <screenshot>
-      <caption>Analyze games</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/analyze_games.png</image>
+      <caption>Bridge solver</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/bridge_solver.png</image>
     </screenshot>
     <screenshot>
-      <caption>Login screen</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/login_screen.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Meet Jethro</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/meet_jethro.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Events</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/events.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Bidding conventions</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/bidding_conventions.png</image>
+      <caption>Monthly events</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/monthly_events.png</image>
     </screenshot>
   </screenshots>
   <url type="homepage">https://zbridge.club</url>
