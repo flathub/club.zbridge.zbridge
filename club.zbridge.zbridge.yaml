@@ -22,7 +22,6 @@ finish-args:
 - --socket=wayland
 - --socket=pulseaudio
 - --share=network
-- --persist=.config/zbridge-club
 
 - --filesystem=xdg-download/zBridge_Club:create
 modules:
@@ -40,12 +39,13 @@ modules:
   - find /app/zbridge-club -exec touch -h -d "@${SOURCE_DATE_EPOCH:-1700000000}" {} +
   - install -Dm0755 zbridge-club.sh /app/bin/zbridge-club
   - install -Dm644 club.zbridge.zbridge.desktop /app/share/applications/club.zbridge.zbridge.desktop
-  - install -Dm644 metainfo-fixed.xml /app/share/metainfo/club.zbridge.zbridge.metainfo.xml
+  - install -Dm644 club.zbridge.zbridge.metainfo.xml /app/share/metainfo/club.zbridge.zbridge.metainfo.xml
   - install -Dm644 club.zbridge.zbridge.svg /app/share/icons/hicolor/scalable/apps/club.zbridge.zbridge.svg
   sources:
   - type: git
     url: https://github.com/amitter84/zbridge-flatpak-source.git
-    commit: eb6707f45b48d18fe635689a4a6c80924cf7f434
+    tag: v1.1.8
+    commit: b73c2f7e9d12c14455d9ef95d77cb4e09f37363d
   - dest: flatpak-node/cache/electron
     only-arches:
     - x86_64
@@ -64,7 +64,9 @@ modules:
   - type: file
     path: electron-shasums.txt
   - type: file
-    path: metainfo-fixed.xml
+    path: club.zbridge.zbridge.metainfo.xml
+  - type: file
+    path: club.zbridge.zbridge.svg
 
 - name: zbridge-stub
   buildsystem: simple
@@ -72,11 +74,14 @@ modules:
   build-commands:
   - install -Dm755 /usr/bin/true /app/bin/zbridge-club
   - install -Dm644 club.zbridge.zbridge.desktop /app/share/applications/club.zbridge.zbridge.desktop
-  - install -Dm644 metainfo-fixed.xml /app/share/metainfo/club.zbridge.zbridge.metainfo.xml
+  - install -Dm644 club.zbridge.zbridge.metainfo.xml /app/share/metainfo/club.zbridge.zbridge.metainfo.xml
   - install -Dm644 club.zbridge.zbridge.svg /app/share/icons/hicolor/scalable/apps/club.zbridge.zbridge.svg
   sources:
   - type: git
     url: https://github.com/amitter84/zbridge-flatpak-source.git
-    commit: eb6707f45b48d18fe635689a4a6c80924cf7f434
+    tag: v1.1.8
+    commit: b73c2f7e9d12c14455d9ef95d77cb4e09f37363d
   - type: file
-    path: metainfo-fixed.xml
+    path: club.zbridge.zbridge.metainfo.xml
+  - type: file
+    path: club.zbridge.zbridge.svg
