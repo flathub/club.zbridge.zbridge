@@ -1,50 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="128" height="128" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="128" height="128" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- 3D Felt Green Tile Gradients & Shadows -->
+    <!-- Felt Green Base Tile Gradient -->
     <linearGradient id="tileSurface" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#248a4c"/>
-      <stop offset="60%" stop-color="#186335"/>
-      <stop offset="100%" stop-color="#0f4523"/>
+      <stop offset="0%" stop-color="#228647"/>
+      <stop offset="65%" stop-color="#145a2d"/>
+      <stop offset="100%" stop-color="#0a361a"/>
     </linearGradient>
 
-    <linearGradient id="tileBevel" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0b3319"/>
-      <stop offset="100%" stop-color="#04170b"/>
-    </linearGradient>
-
+    <!-- Top Rim Inner Highlight -->
     <linearGradient id="topHighlightRim" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/>
-      <stop offset="20%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0.10"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0"/>
     </linearGradient>
 
-    <!-- Metallic 3D Gold Arch Gradient -->
-    <linearGradient id="gold3D" x1="20%" y1="0%" x2="80%" y2="100%">
-      <stop offset="0%" stop-color="#fff3b0"/>
-      <stop offset="25%" stop-color="#ffca28"/>
-      <stop offset="65%" stop-color="#f57c00"/>
-      <stop offset="100%" stop-color="#b75100"/>
+    <!-- Golden Bridge Arch Gradient -->
+    <linearGradient id="gold3D" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffeea1"/>
+      <stop offset="30%" stop-color="#f5b025"/>
+      <stop offset="70%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#92400e"/>
     </linearGradient>
 
-    <linearGradient id="goldSpecular" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0"/>
-    </linearGradient>
-
-    <!-- 3D Card Edge & Face Gradients -->
+    <!-- Playing Card Surface Gradient -->
     <linearGradient id="cardFront" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="70%" stop-color="#f8fafc"/>
+      <stop offset="75%" stop-color="#f1f5f9"/>
       <stop offset="100%" stop-color="#e2e8f0"/>
     </linearGradient>
 
-    <linearGradient id="cardThickness" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#cbd5e1"/>
-      <stop offset="100%" stop-color="#94a3b8"/>
-    </linearGradient>
-
-    <!-- Suit 3D Gradients -->
+    <!-- Suit Gradients -->
     <linearGradient id="spadeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#334155"/>
       <stop offset="50%" stop-color="#1e293b"/>
@@ -57,59 +43,40 @@
       <stop offset="100%" stop-color="#991b1b"/>
     </linearGradient>
 
-    <!-- Deep Ambient 3D Shadow Filters -->
-    <filter id="tileAmbientShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#020b05" flood-opacity="0.65"/>
-    </filter>
-
-    <filter id="cardShadow3D" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="2" dy="6" stdDeviation="4" flood-color="#031207" flood-opacity="0.55"/>
-    </filter>
-
-    <filter id="archShadow3D" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="5" stdDeviation="3.5" flood-color="#000000" flood-opacity="0.5"/>
-    </filter>
-
-    <!-- Crisp 3D Spade Shape -->
-    <g id="spade3D">
-      <path d="M 0,-16 C -2.8,-8.5 -13,-1 -13,5.5 C -13,11.5 -8,14 -2.8,12.2 C -2,12.2 -1.3,13.2 -2,16 L -4.5,20.5 L 4.5,20.5 L 2,16 C 1.3,13.2 2,12.2 2.8,12.2 C 8,14 13,11.5 13,5.5 C 13,-1 2.8,-8.5 0,-16 Z" fill="url(#spadeGrad)"/>
-      <path d="M 0,-14 C -2,-8 -9,-2 -9,4 C -9,6 -7,8 -3,7 C 0,-4 -1,-10 0,-14 Z" fill="#ffffff" opacity="0.15"/>
+    <!-- Crisp 2D Vector Spade -->
+    <g id="spadeShape">
+      <path d="M 0,-15 C -2.5,-8 -12,-1 -12,5 C -12,10.5 -7.5,13 -2.5,11.5 C -1.8,11.5 -1.2,12.5 -1.8,15 L -4,19 L 4,19 L 1.8,15 C 1.2,12.5 1.8,11.5 2.5,11.5 C 7.5,13 12,10.5 12,5 C 12,-1 2.5,-8 0,-15 Z" fill="url(#spadeGrad)"/>
     </g>
 
-    <!-- Crisp 3D Heart Shape -->
-    <g id="heart3D">
-      <path d="M 0,14 C -2.2,12 -13,3.8 -13,-3.2 C -13,-9 -7.8,-12 -2.8,-9.8 C -1.2,-9.1 0,-7.2 0,-7.2 C 0,-7.2 1.2,-9.1 2.8,-9.8 C 7.8,-12 13,-9 13,-3.2 C 13,3.8 2.2,12 0,14 Z" fill="url(#heartGrad)"/>
-      <path d="M 0,-5 C 0,-5 1,-7.5 2.3,-8 C 6.5,-9.8 10.5,-7.2 10.5,-2.5 C 10.5,2 -1,8.5 -0.5,2 C 2,2 5,-1 0,-5 Z" fill="#ffffff" opacity="0.2"/>
+    <!-- Crisp 2D Vector Heart -->
+    <g id="heartShape">
+      <path d="M 0,13 C -2,11 -12,3.5 -12,-3 C -12,-8.5 -7.2,-11.2 -2.5,-9.2 C -1,-8.5 0,-6.7 0,-6.7 C 0,-6.7 1,-8.5 2.5,-9.2 C 7.2,-11.2 12,-8.5 12,-3 C 12,3.5 2,11 0,13 Z" fill="url(#heartGrad)"/>
     </g>
   </defs>
 
-  <!-- 3D BASE TILE: GNOME 112x112 squircle with 3D depth bevel -->
-  <g filter="url(#tileAmbientShadow)">
-    <rect x="8" y="12" width="112" height="108" rx="28" ry="28" fill="url(#tileBevel)"/>
-    <rect x="8" y="8" width="112" height="108" rx="28" ry="28" fill="url(#tileSurface)"/>
-    <rect x="8" y="8" width="112" height="108" rx="28" ry="28" fill="none" stroke="url(#topHighlightRim)" stroke-width="1.5"/>
+  <!-- BASE TILE: Standard GNOME HIG 112x112 centered squircle (x=8, y=8, rx=24) -->
+  <rect x="8" y="8" width="112" height="112" rx="24" ry="24" fill="url(#tileSurface)"/>
+  <rect x="8" y="8" width="112" height="112" rx="24" ry="24" fill="none" stroke="#051f0e" stroke-width="1.5" stroke-opacity="0.5"/>
+  <rect x="9" y="9" width="110" height="110" rx="23" ry="23" fill="none" stroke="url(#topHighlightRim)" stroke-width="1.25"/>
+
+  <!-- GOLDEN BRIDGE ARCH STRUCTURE -->
+  <g stroke="url(#gold3D)" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Horizontal Deck Base -->
+    <path d="M 18 92 L 110 92" stroke-width="3.5"/>
+    <!-- Main Arch Ribbon -->
+    <path d="M 22 92 C 40 48, 88 48, 106 92" stroke-width="6"/>
   </g>
 
-  <!-- 3D GOLDEN BRIDGE ARCH STRUCTURE -->
-  <g filter="url(#archShadow3D)">
-    <path d="M 20 94 C 40 50, 88 50, 108 94" fill="none" stroke="#04150a" stroke-width="9" opacity="0.4"/>
-    <path d="M 20 94 C 40 50, 88 50, 108 94" fill="none" stroke="url(#gold3D)" stroke-width="6.5" stroke-linecap="round"/>
-    <path d="M 21 93.5 C 40 50.5, 88 50.5, 107 93.5" fill="none" stroke="url(#goldSpecular)" stroke-width="1.75" stroke-linecap="round"/>
-    <path d="M 16 94 L 112 94" stroke="url(#gold3D)" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- OVERLAPPING PLAYING CARDS -->
+  <!-- Card 1: Ace of Spades (Left card, tilted -12°) -->
+  <g transform="translate(48, 56) rotate(-12)">
+    <rect x="-20" y="-30" width="40" height="60" rx="4" fill="url(#cardFront)" stroke="#cbd5e1" stroke-width="1"/>
+    <use href="#spadeShape" transform="scale(0.85)"/>
   </g>
 
-  <!-- 3D PLAYING CARDS WITH PHYSICAL THICKNESS -->
-  <!-- Card 1: Ace of Spades (Left, tilted -12°) -->
-  <g transform="translate(48, 55) rotate(-12)" filter="url(#cardShadow3D)">
-    <rect x="-20.5" y="-30.5" width="43" height="63" rx="5.5" fill="url(#cardThickness)"/>
-    <rect x="-22" y="-32" width="44" height="64" rx="5" fill="url(#cardFront)" stroke="#cbd5e1" stroke-width="0.75"/>
-    <use href="#spade3D" transform="scale(0.92)"/>
-  </g>
-
-  <!-- Card 2: Ace of Hearts (Right, tilted +14°, overlapping) -->
-  <g transform="translate(79, 58) rotate(14)" filter="url(#cardShadow3D)">
-    <rect x="-20.5" y="-30.5" width="43" height="63" rx="5.5" fill="url(#cardThickness)"/>
-    <rect x="-22" y="-32" width="44" height="64" rx="5" fill="url(#cardFront)" stroke="#cbd5e1" stroke-width="0.75"/>
-    <use href="#heart3D" transform="scale(0.92)"/>
+  <!-- Card 2: Ace of Hearts (Right card, tilted +12°) -->
+  <g transform="translate(80, 58) rotate(12)">
+    <rect x="-20" y="-30" width="40" height="60" rx="4" fill="url(#cardFront)" stroke="#cbd5e1" stroke-width="1"/>
+    <use href="#heartShape" transform="scale(0.85)"/>
   </g>
 </svg>
