@@ -47,9 +47,6 @@
       <caption>Monthly Events</caption>
       <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/monthly_events.png</image>
     </screenshot>
-    <screenshot>
-      <video codec="vp9" container="webm">https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/flatpak.webm</video>
-    </screenshot>
   </screenshots>
   <url type="homepage">https://zbridge.club</url>
   <url type="help">https://zbridge.club/help</url>
