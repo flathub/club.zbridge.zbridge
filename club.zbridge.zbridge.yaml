@@ -45,7 +45,7 @@ modules:
   - type: git
     url: https://github.com/amitter84/zbridge-flatpak-source.git
     tag: v1.1.8
-    commit: b73c2f7e9d12c14455d9ef95d77cb4e09f37363d
+    commit: b856a1bba72d0749e091b1670f69ae84e98711aa
   - dest: flatpak-node/cache/electron
     only-arches:
     - x86_64
@@ -80,7 +80,7 @@ modules:
   - type: git
     url: https://github.com/amitter84/zbridge-flatpak-source.git
     tag: v1.1.8
-    commit: b73c2f7e9d12c14455d9ef95d77cb4e09f37363d
+    commit: b856a1bba72d0749e091b1670f69ae84e98711aa
   - type: file
     path: club.zbridge.zbridge.metainfo.xml
   - type: file
