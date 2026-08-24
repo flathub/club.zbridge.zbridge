@@ -79,15 +79,15 @@
 
     <!-- Clip path to keep all internal elements strictly inside the base tile squircle -->
     <clipPath id="tileClip">
-      <rect x="16" y="16" width="96" height="96" rx="24" ry="24"/>
+      <rect x="15" y="15" width="98" height="98" rx="24.5" ry="24.5"/>
     </clipPath>
   </defs>
 
-  <!-- 3D BASE TILE: Compact 96x96 tile cleanly padded inside 128x128 grid (NO OUTSIDE SHADOW) -->
+  <!-- 3D BASE TILE: Compact 98x98 tile cleanly padded inside 128x128 grid (NO OUTSIDE SHADOW) -->
   <g>
-    <rect x="16" y="19" width="96" height="93" rx="24" ry="24" fill="url(#tileBevel)"/>
-    <rect x="16" y="16" width="96" height="93" rx="24" ry="24" fill="url(#tileSurface)"/>
-    <rect x="16" y="16" width="96" height="93" rx="24" ry="24" fill="none" stroke="url(#topHighlightRim)" stroke-width="1.5"/>
+    <rect x="15" y="18" width="98" height="95" rx="24.5" ry="24.5" fill="url(#tileBevel)"/>
+    <rect x="15" y="15" width="98" height="95" rx="24.5" ry="24.5" fill="url(#tileSurface)"/>
+    <rect x="15" y="15" width="98" height="95" rx="24.5" ry="24.5" fill="none" stroke="url(#topHighlightRim)" stroke-width="1.5"/>
   </g>
 
   <!-- INNER CONTENT CLIPPED STRICTLY TO BASE TILE -->
